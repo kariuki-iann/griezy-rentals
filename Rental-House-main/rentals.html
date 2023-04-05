@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="styles.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<!-- <link rel="icon" href="images/logo (1).png"type="img/jpg"> -->
+	<script src="https://code.jquery.com/jquery-3.6.0.js"
+		integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+	<!-- <script src="js/script.js"></script> -->
+	<title>Griezy Rentals</title>
+
+</head>
+
+<body>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="rentals.html">Rentals</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+	</nav>
+	<div class="container-fluid menu">
+		<div class="col-md-25">
+			<div class="row">
+
+				<h2>Menu</h2>
+				<div class="card text-center" id="menuCard">
+					<div class="card-header">
+						<ul class="nav nav-tabs card-header-tabs">
+							<li class="nav-item">
+								<a class="nav-link" href="#">Pizzas</a>
+							</li>
+
+						</ul>
+					</div>
+					<div class="card-body">
+						<div class="row">
+							<div class="col-sm-4">
+								<form id="pizza-one-form">
+									<div class="card" id="menuItem">
+										<div class="card-header">
+											<h5 id="pizza-one-label">MALINDI</h5>
+										</div>
+										<img class="card-img-top" src="images/image-1.png" alt="an image of menu item3"
+											width="100%">
+										<div class="card-footer">
+											<div class="form-group" id="numberInput">
+												<input type="number" class="form-control" placeholder=" 1"
+													id="pizza-quantity" min="1" required>
+											</div>
+
+											<select class="form-control drop" id="size-selector" required>
+												<option>Villa</option>
+												<option>Town house</option>
+												<option>Apartment</option>
+
+											</select>
+
+
+											<select class="form-control drop" id="crust-selector" required>
+												<option>One bedroom</option>
+												<option>Two bedroom</option>
+												<option>Three bedroom</option>
+												<option>Four bedroom</option>
+												<option>Five bedroom</option>
+
+											</select>
+
+											<select class="form-control drop" id="topping-selector" required>
+												<option>One car parking</option>
+												<option>two car parking</option>
+												<option>three car parking</option>
+												<option>swimming pool</option>
+												<option>Gazebo</option>
+												<option>Children Play area</option>
+
+											</select>
+
+											<button type="sumbit" class="btn btn-primary" id="checkout">Select</button>
+
+
+										</div>
+									</div>
+							</div>
+							</form>
+
+							<div class="col-sm-4">
+								<form id="pizza-one-form">
+									<div class="card" id="menuItem">
+										<div class="card-header">
+											<h5 id="pizza-one-label">NAIROBI</h5>
+										</div>
+										<img class="card-img-top" src="images/image-2.png" alt="an image of menu item3"
+											width="98%">
+										<div class="card-footer">
+											<div class="form-group" id="numberInput">
+												<input type="number" class="form-control" placeholder=" 1"
+													id="pizza-quantity" min="1" required>
+											</div>
+
+											<select class="form-control drop" id="size-selector" required>
+												<option>Villa</option>
+												<option>Town house</option>
+												<option>Apartment</option>
+											</select>
+
+
+											<select class="form-control drop" id="crust-selector" required>
+												<option>One bedroom</option>
+												<option>Two bedroom</option>
+												<option>Three bedroom</option>
+												<option>Four bedroom</option>
+												<option>Five bedroom</option>
+
+											</select>
+
+											<select class="form-control drop" id="topping-selector" required>
+												<option>One car parking</option>
+												<option>two car parking</option>
+												<option>three car parking</option>
+												<option>swimming pool</option>
+												<option>Gazebo</option>
+												<option>Children Play area</option>
+											</select>
+
+											<button type="sumbit" class="btn btn-primary" id="checkout">Select</button>
+
+
+										</div>
+									</div>
+							</div>
+							</form>
+
+							<div class="col-sm-4">
+								<form id="pizza-one-form">
+									<div class="card" id="menuItem">
+										<div class="card-header">
+											<h5 id="pizza-one-label">NAKURU</h5>
+										</div>
+										<img class="card-img-top" src="images/image-3.png" alt="an image of menu item3"
+											width="98%">
+										<div class="card-footer">
+											<div class="form-group" id="numberInput">
+												<input type="number" class="form-control" placeholder=" 1"
+													id="pizza-quantity" min="1" required>
+											</div>
+
+											<select class="form-control drop" id="size-selector" required>
+												<option>Villa</option>
+												<option>Town house</option>
+												<option>Apartment</option>
+
+											</select>
+
+
+											<select class="form-control drop" id="crust-selector" required>
+												<option>One bedroom</option>
+												<option>Two bedroom</option>
+												<option>Three bedroom</option>
+												<option>Four bedroom</option>
+												<option>Five bedroom</option>
+
+											</select>
+
+											<select class="form-control drop" id="topping-selector" required>
+												<option>One car parking</option>
+												<option>two car parking</option>
+												<option>three car parking</option>
+												<option>swimming pool</option>
+												<option>Gazebo</option>
+												<option>Children Play area</option>
+											</select>
+
+											<button type="sumbit" class="btn btn-primary" id="checkout">Select</button>
+
+
+										</div>
+									</div>
+							</div>
+							</form>
+
+							<div class="col-sm-4">
+								<form id="pizza-one-form">
+									<div class="card" id="menuItem">
+										<div class="card-header">
+											<h5 id="pizza-one-label">KISUMU</h5>
+										</div>
+										<img class="card-img-top" src="images/image-4.png" alt="an image of menu item3"
+											width="98%">
+										<div class="card-footer">
+											<div class="form-group" id="numberInput">
+												<input type="number" class="form-control" placeholder=" 1"
+													id="pizza-quantity" min="1" required>
+											</div>
+
+											<select class="form-control drop" id="size-selector" required>
+												<option>Villa</option>
+												<option>Town house</option>
+												<option>Apartment</option>
+
+											</select>
+
+
+											<select class="form-control drop" id="crust-selector" required>
+												<option>One bedroom</option>
+												<option>Two bedroom</option>
+												<option>Three bedroom</option>
+												<option>Four bedroom</option>
+												<option>Five bedroom</option>
+
+											</select>
+
+											<select class="form-control drop" id="topping-selector" required>
+												<option>One car parking</option>
+												<option>two car parking</option>
+												<option>three car parking</option>
+												<option>swimming pool</option>
+												<option>Gazebo</option>
+												<option>Children Play area</option>
+											</select>
+
+											<button type="sumbit" class="btn btn-primary" id="checkout">Select</button>
+
+
+										</div>
+									</div>
+							</div>
+							</form>
+							<div class="col-sm-4">
+								<form id="pizza-one-form">
+									<div class="card" id="menuItem">
+										<div class="card-header">
+											<h5 id="pizza-one-label">NYERI </h5>
+										</div>
+										<img class="card-img-top" src="images/image-5.png" alt="an image of menu item3"
+											width="98%">
+										<div class="card-footer">
+											<div class="form-group" id="numberInput">
+												<input type="number" class="form-control" placeholder=" 1"
+													id="pizza-quantity" min="1" required>
+											</div>
+
+											<select class="form-control drop" id="size-selector" required>
+												<option>Villa</option>
+												<option>Town house</option>
+												<option>Apartment</option>
+
+											</select>
+
+
+											<select class="form-control drop" id="crust-selector" required>
+												<option>One bedroom</option>
+												<option>Two bedroom</option>
+												<option>Three bedroom</option>
+												<option>Four bedroom</option>
+												<option>Five bedroom</option>
+
+											</select>
+
+											<select class="form-control drop" id="topping-selector" required>
+												<option>One car parking</option>
+												<option>two car parking</option>
+												<option>three car parking</option>
+												<option>swimming pool</option>
+												<option>Gazebo</option>
+												<option>Children Play area</option>
+											</select>
+
+											<button type="sumbit" class="btn btn-primary" id="checkout">Select</button>
+
+
+										</div>
+									</div>
+							</div>
+							</form>
+
+							<div class="col-sm-4">
+								<form id="pizza-one-form">
+									<div class="card" id="menuItem">
+										<div class="card-header">
+											<h5 id="pizza-one-label">MOMBASA</h5>
+										</div>
+										<img class="card-img-top" src="images/image-6.png" alt="an image of menu item3"
+											width="98%">
+										<div class="card-footer">
+											<div class="form-group" id="numberInput">
+												<input type="number" class="form-control" placeholder=" 1"
+													id="pizza-quantity" min="1" required>
+											</div>
+
+											<select class="form-control drop" id="size-selector" required>
+												<option>Villa</option>
+												<option>Town house</option>
+												<option>Apartment</option>
+
+											</select>
+
+
+											<select class="form-control drop" id="crust-selector" required>
+												<option>One bedroom</option>
+												<option>Two bedroom</option>
+												<option>Three bedroom</option>
+												<option>Four bedroom</option>
+												<option>Five bedroom</option>
+
+											</select>
+
+											<select class="form-control drop" id="topping-selector" required>
+												<option>One car parking</option>
+												<option>two car parking</option>
+												<option>three car parking</option>
+												<option>swimming pool</option>
+												<option>Gazebo</option>
+												<option>Children Play area</option>
+											</select>
+
+											<button type="sumbit" class="btn btn-primary" id="checkout">Select</button>
+
+
+										</div>
+									</div>
+							</div>
+							</form>
+
+
+							<div class="container-fluid billing">
+								<h2>Billing and Pricing</h2>
+								<div class="card" id="orderDetails">
+									<div class="card-body">
+										<div class="summary">
+											<div id="price-breakdown">
+												<div class="summary-items">
+													<p class="space"><span id="size-price"></span></p>
+												</div>
+												<div class="summary-items">
+													<p class="space"><span id="toppings-price"></span></p>
+												</div>
+												<div class="summary-items">
+													<p class="space"><span id="crust-price"></span></p>
+												</div>
+												<div class="summary-items">
+													<p class="space"><span id="delivery-price"></span></p>
+												</div>
+											</div>
+											<div class="summary-items total" id="total">
+												<h5 class="sum-price" id="total-price"></h5>
+											</div>
+										</div>
+									</div>
+									<div class="card-footer">
+										<button onclick="submit()" id="checkOut"
+											class="btn reserve-btn">CHECKOUT</button>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+</body>
+
+</html>
